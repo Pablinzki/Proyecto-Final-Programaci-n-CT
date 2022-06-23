@@ -1,0 +1,683 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_511a427464d5e04883847f0147569c4f {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_511a427464d5e04883847f0147569c4f" ></div>
+        
+</body>
+<script>    
+    
+            var map_511a427464d5e04883847f0147569c4f = L.map(
+                "map_511a427464d5e04883847f0147569c4f",
+                {
+                    center: [28.04435, 3.285749999999999],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 2,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_c6b9faef316eaa446c0b74075664200a = L.tileLayer(
+                "https://stamen-tiles-{s}.a.ssl.fastly.net/terrain/{z}/{x}/{y}.jpg",
+                {"attribution": "Map tiles by \u003ca href=\"http://stamen.com\"\u003eStamen Design\u003c/a\u003e, under \u003ca href=\"http://creativecommons.org/licenses/by/3.0\"\u003eCC BY 3.0\u003c/a\u003e. Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://creativecommons.org/licenses/by-sa/3.0\"\u003eCC BY SA\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_511a427464d5e04883847f0147569c4f);
+        
+    
+            var marker_a8196e04bddeae82ef21e7deeb920fe0 = L.marker(
+                [-32.01, 135.45],
+                {}
+            ).addTo(map_511a427464d5e04883847f0147569c4f);
+        
+    
+            var icon_01a49f8dfacf7be7cb704655215950ea = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-star", "iconColor": "white", "markerColor": "beige", "prefix": "fa"}
+            );
+            marker_a8196e04bddeae82ef21e7deeb920fe0.setIcon(icon_01a49f8dfacf7be7cb704655215950ea);
+        
+    
+        var popup_54c243e54682c7db8f548b7d9c410443 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a75b7197cbbcc56ae17d838f45ad4f99 = $(`<div id="html_a75b7197cbbcc56ae17d838f45ad4f99" style="width: 100.0%; height: 100.0%;">Nombre = Acraman   Diámetro = 90.0 km</div>`)[0];
+            popup_54c243e54682c7db8f548b7d9c410443.setContent(html_a75b7197cbbcc56ae17d838f45ad4f99);
+        
+
+        marker_a8196e04bddeae82ef21e7deeb920fe0.bindPopup(popup_54c243e54682c7db8f548b7d9c410443)
+        ;
+
+        
+    
+    
+            var circle_49db0d7bfe24aec0f11bc386237f4fe3 = L.circle(
+                [-32.01, 135.45],
+                {"bubblingMouseEvents": true, "color": "beige", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "beige", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 90000.0, "stroke": true, "weight": 3}
+            ).addTo(map_511a427464d5e04883847f0147569c4f);
+        
+    
+            var marker_8b8f85dd913202263f41687bc23f66bf = L.marker(
+                [-16.8, -52.98],
+                {}
+            ).addTo(map_511a427464d5e04883847f0147569c4f);
+        
+    
+            var icon_a27b0c4f84a3dfeaa52de7a450367d67 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-star", "iconColor": "white", "markerColor": "black", "prefix": "fa"}
+            );
+            marker_8b8f85dd913202263f41687bc23f66bf.setIcon(icon_a27b0c4f84a3dfeaa52de7a450367d67);
+        
+    
+        var popup_9bc53c66afd8fd7ea15fac4aad07d308 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ed61bf9382a6349ff72fbc13a5ba4624 = $(`<div id="html_ed61bf9382a6349ff72fbc13a5ba4624" style="width: 100.0%; height: 100.0%;">Nombre = Araguainha   Diámetro = 40.0 km</div>`)[0];
+            popup_9bc53c66afd8fd7ea15fac4aad07d308.setContent(html_ed61bf9382a6349ff72fbc13a5ba4624);
+        
+
+        marker_8b8f85dd913202263f41687bc23f66bf.bindPopup(popup_9bc53c66afd8fd7ea15fac4aad07d308)
+        ;
+
+        
+    
+    
+            var circle_c30fb9b7a07b0d1e87c2b20607b64166 = L.circle(
+                [-16.8, -52.98],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 40000.0, "stroke": true, "weight": 3}
+            ).addTo(map_511a427464d5e04883847f0147569c4f);
+        
+    
+            var marker_43cb28e3a2fd6e7871b4da9a8fe0dcdd = L.marker(
+                [46.13, -112.83],
+                {}
+            ).addTo(map_511a427464d5e04883847f0147569c4f);
+        
+    
+            var icon_12495e4b0b3b0d51c0365c314508d458 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-star", "iconColor": "white", "markerColor": "lightblue", "prefix": "fa"}
+            );
+            marker_43cb28e3a2fd6e7871b4da9a8fe0dcdd.setIcon(icon_12495e4b0b3b0d51c0365c314508d458);
+        
+    
+        var popup_d7fae52ca2d1322066c2626d7cf9cae6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c4c8d947571df4a6ac75a38e65b48839 = $(`<div id="html_c4c8d947571df4a6ac75a38e65b48839" style="width: 100.0%; height: 100.0%;">Nombre = Beaverhead   Diámetro = 60.0 km</div>`)[0];
+            popup_d7fae52ca2d1322066c2626d7cf9cae6.setContent(html_c4c8d947571df4a6ac75a38e65b48839);
+        
+
+        marker_43cb28e3a2fd6e7871b4da9a8fe0dcdd.bindPopup(popup_d7fae52ca2d1322066c2626d7cf9cae6)
+        ;
+
+        
+    
+    
+            var circle_f31d91bb110de1b9a875f9b14995f757 = L.circle(
+                [46.13, -112.83],
+                {"bubblingMouseEvents": true, "color": "lightblue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "lightblue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 60000.0, "stroke": true, "weight": 3}
+            ).addTo(map_511a427464d5e04883847f0147569c4f);
+        
+    
+            var marker_ee6e196c30f89c0bc0c8eddb29d09230 = L.marker(
+                [47.53, -70.3],
+                {}
+            ).addTo(map_511a427464d5e04883847f0147569c4f);
+        
+    
+            var icon_d6847987851786f25e78d31c806ea5ff = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-star", "iconColor": "white", "markerColor": "purple", "prefix": "fa"}
+            );
+            marker_ee6e196c30f89c0bc0c8eddb29d09230.setIcon(icon_d6847987851786f25e78d31c806ea5ff);
+        
+    
+        var popup_39ae146d43adf846a8e9a7af816cd4f4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_48b7ba1592df11259eda721a154b710f = $(`<div id="html_48b7ba1592df11259eda721a154b710f" style="width: 100.0%; height: 100.0%;">Nombre = Charlevoix   Diámetro = 54.0 km</div>`)[0];
+            popup_39ae146d43adf846a8e9a7af816cd4f4.setContent(html_48b7ba1592df11259eda721a154b710f);
+        
+
+        marker_ee6e196c30f89c0bc0c8eddb29d09230.bindPopup(popup_39ae146d43adf846a8e9a7af816cd4f4)
+        ;
+
+        
+    
+    
+            var circle_1f98b69b4883545f14b79f6f31ec45c4 = L.circle(
+                [47.53, -70.3],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "purple", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 54000.0, "stroke": true, "weight": 3}
+            ).addTo(map_511a427464d5e04883847f0147569c4f);
+        
+    
+            var marker_8d0d283280fab3fa6716bf0acb50b264 = L.marker(
+                [37.28, -76.01],
+                {}
+            ).addTo(map_511a427464d5e04883847f0147569c4f);
+        
+    
+            var icon_5a90af8f4dac97f42f679a88ddce696d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-star", "iconColor": "white", "markerColor": "black", "prefix": "fa"}
+            );
+            marker_8d0d283280fab3fa6716bf0acb50b264.setIcon(icon_5a90af8f4dac97f42f679a88ddce696d);
+        
+    
+        var popup_8ed99c04f364247399ad72c9bdb32d70 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e5e7cf97a5824988adf2444232b7325b = $(`<div id="html_e5e7cf97a5824988adf2444232b7325b" style="width: 100.0%; height: 100.0%;">Nombre = Chesapeake Bay   Diámetro = 40.0 km</div>`)[0];
+            popup_8ed99c04f364247399ad72c9bdb32d70.setContent(html_e5e7cf97a5824988adf2444232b7325b);
+        
+
+        marker_8d0d283280fab3fa6716bf0acb50b264.bindPopup(popup_8ed99c04f364247399ad72c9bdb32d70)
+        ;
+
+        
+    
+    
+            var circle_dac6ac9546362858367c4b79fa89b4f7 = L.circle(
+                [37.28, -76.01],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 40000.0, "stroke": true, "weight": 3}
+            ).addTo(map_511a427464d5e04883847f0147569c4f);
+        
+    
+            var marker_9152c270af59c338765ac4473b19bd48 = L.marker(
+                [21.4, -89.51],
+                {}
+            ).addTo(map_511a427464d5e04883847f0147569c4f);
+        
+    
+            var icon_8ad9caadc0deca6965874b51a81b3ea1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-star", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_9152c270af59c338765ac4473b19bd48.setIcon(icon_8ad9caadc0deca6965874b51a81b3ea1);
+        
+    
+        var popup_f9a65698f02f5d4f008471fab55e5353 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8a88c6cc7c26f1722ec33ea243cd2eab = $(`<div id="html_8a88c6cc7c26f1722ec33ea243cd2eab" style="width: 100.0%; height: 100.0%;">Nombre = Chicxulub   Diámetro = 150.0 km</div>`)[0];
+            popup_f9a65698f02f5d4f008471fab55e5353.setContent(html_8a88c6cc7c26f1722ec33ea243cd2eab);
+        
+
+        marker_9152c270af59c338765ac4473b19bd48.bindPopup(popup_f9a65698f02f5d4f008471fab55e5353)
+        ;
+
+        
+    
+    
+            var circle_294412b856238f01a773977e3411ba6b = L.circle(
+                [21.4, -89.51],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 150000.0, "stroke": true, "weight": 3}
+            ).addTo(map_511a427464d5e04883847f0147569c4f);
+        
+    
+            var marker_23312101d538c1947586e215862d77df = L.marker(
+                [69.1, 64.15],
+                {}
+            ).addTo(map_511a427464d5e04883847f0147569c4f);
+        
+    
+            var icon_ca82a7e2c308f74c08e2e4706e3ce774 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-star", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_23312101d538c1947586e215862d77df.setIcon(icon_ca82a7e2c308f74c08e2e4706e3ce774);
+        
+    
+        var popup_c3cf5af210ba1cf118629be69183ecd2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5732ad4119de9882fc7e693dfd4de6d4 = $(`<div id="html_5732ad4119de9882fc7e693dfd4de6d4" style="width: 100.0%; height: 100.0%;">Nombre = Kara   Diámetro = 65.0 km</div>`)[0];
+            popup_c3cf5af210ba1cf118629be69183ecd2.setContent(html_5732ad4119de9882fc7e693dfd4de6d4);
+        
+
+        marker_23312101d538c1947586e215862d77df.bindPopup(popup_c3cf5af210ba1cf118629be69183ecd2)
+        ;
+
+        
+    
+    
+            var circle_e091eda3ff1305aefe20559263772679 = L.circle(
+                [69.1, 64.15],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 65000.0, "stroke": true, "weight": 3}
+            ).addTo(map_511a427464d5e04883847f0147569c4f);
+        
+    
+            var marker_f8038c07d8af099081bfa02a847471fa = L.marker(
+                [39.03, 73.42],
+                {}
+            ).addTo(map_511a427464d5e04883847f0147569c4f);
+        
+    
+            var icon_c195fdd0be2a6e95794d8fb280f903c8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-star", "iconColor": "white", "markerColor": "cadetblue", "prefix": "fa"}
+            );
+            marker_f8038c07d8af099081bfa02a847471fa.setIcon(icon_c195fdd0be2a6e95794d8fb280f903c8);
+        
+    
+        var popup_b174c2c214b24707f78ddb0f2644661b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b09e67a46f0d981ec092a4357bc89327 = $(`<div id="html_b09e67a46f0d981ec092a4357bc89327" style="width: 100.0%; height: 100.0%;">Nombre = Kara-Kul   Diámetro = 52.0 km</div>`)[0];
+            popup_b174c2c214b24707f78ddb0f2644661b.setContent(html_b09e67a46f0d981ec092a4357bc89327);
+        
+
+        marker_f8038c07d8af099081bfa02a847471fa.bindPopup(popup_b174c2c214b24707f78ddb0f2644661b)
+        ;
+
+        
+    
+    
+            var circle_663b7200990c35073f20a0866b441eab = L.circle(
+                [39.03, 73.42],
+                {"bubblingMouseEvents": true, "color": "cadetblue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "cadetblue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 52000.0, "stroke": true, "weight": 3}
+            ).addTo(map_511a427464d5e04883847f0147569c4f);
+        
+    
+            var marker_d4fd333135512697f78cb578914cc773 = L.marker(
+                [51.127, -68.735],
+                {}
+            ).addTo(map_511a427464d5e04883847f0147569c4f);
+        
+    
+            var icon_78b35b209501be4721bb1c50ad336256 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-star", "iconColor": "white", "markerColor": "lightgreen", "prefix": "fa"}
+            );
+            marker_d4fd333135512697f78cb578914cc773.setIcon(icon_78b35b209501be4721bb1c50ad336256);
+        
+    
+        var popup_a769498ce5c266f4bbddee0788d97ce2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e33f15689bd4e2d65dba4f4c977f724a = $(`<div id="html_e33f15689bd4e2d65dba4f4c977f724a" style="width: 100.0%; height: 100.0%;">Nombre = Manicouagan   Diámetro = 85.0 km</div>`)[0];
+            popup_a769498ce5c266f4bbddee0788d97ce2.setContent(html_e33f15689bd4e2d65dba4f4c977f724a);
+        
+
+        marker_d4fd333135512697f78cb578914cc773.bindPopup(popup_a769498ce5c266f4bbddee0788d97ce2)
+        ;
+
+        
+    
+    
+            var circle_052cf7b95c5d53271dfa55af2d50c3d9 = L.circle(
+                [51.127, -68.735],
+                {"bubblingMouseEvents": true, "color": "lightgreen", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "lightgreen", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 85000.0, "stroke": true, "weight": 3}
+            ).addTo(map_511a427464d5e04883847f0147569c4f);
+        
+    
+            var marker_700a7432bdab6a9aa96e918715355037 = L.marker(
+                [73.8, 29.66],
+                {}
+            ).addTo(map_511a427464d5e04883847f0147569c4f);
+        
+    
+            var icon_b36fbc209d61fc0fb7d337107bdf7ae9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-star", "iconColor": "white", "markerColor": "black", "prefix": "fa"}
+            );
+            marker_700a7432bdab6a9aa96e918715355037.setIcon(icon_b36fbc209d61fc0fb7d337107bdf7ae9);
+        
+    
+        var popup_d01ef4de957edbe13e5cef94f2a3376b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bf5e8503b6db748d8ae0053cd8d923aa = $(`<div id="html_bf5e8503b6db748d8ae0053cd8d923aa" style="width: 100.0%; height: 100.0%;">Nombre = Mjølnir   Diámetro = 40.0 km</div>`)[0];
+            popup_d01ef4de957edbe13e5cef94f2a3376b.setContent(html_bf5e8503b6db748d8ae0053cd8d923aa);
+        
+
+        marker_700a7432bdab6a9aa96e918715355037.bindPopup(popup_d01ef4de957edbe13e5cef94f2a3376b)
+        ;
+
+        
+    
+    
+            var circle_3dad410e95324a6f04dfdad98593b439 = L.circle(
+                [73.8, 29.66],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 40000.0, "stroke": true, "weight": 3}
+            ).addTo(map_511a427464d5e04883847f0147569c4f);
+        
+    
+            var marker_d25b6c05c57d88a7247bbc6f797741c2 = L.marker(
+                [42.88, -64.22],
+                {}
+            ).addTo(map_511a427464d5e04883847f0147569c4f);
+        
+    
+            var icon_a3150615d661be1ba9a6c292b5343d1c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-star", "iconColor": "white", "markerColor": "gray", "prefix": "fa"}
+            );
+            marker_d25b6c05c57d88a7247bbc6f797741c2.setIcon(icon_a3150615d661be1ba9a6c292b5343d1c);
+        
+    
+        var popup_fd9fa847ccd42ea57a8a30e4fff865b6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_20b5b02d1000bef7ce41e00b1a698d6d = $(`<div id="html_20b5b02d1000bef7ce41e00b1a698d6d" style="width: 100.0%; height: 100.0%;">Nombre = Montagnais   Diámetro = 45.0 km</div>`)[0];
+            popup_fd9fa847ccd42ea57a8a30e4fff865b6.setContent(html_20b5b02d1000bef7ce41e00b1a698d6d);
+        
+
+        marker_d25b6c05c57d88a7247bbc6f797741c2.bindPopup(popup_fd9fa847ccd42ea57a8a30e4fff865b6)
+        ;
+
+        
+    
+    
+            var circle_3b8190745b9314c6e58993bc146354d1 = L.circle(
+                [42.88, -64.22],
+                {"bubblingMouseEvents": true, "color": "gray", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "gray", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 45000.0, "stroke": true, "weight": 3}
+            ).addTo(map_511a427464d5e04883847f0147569c4f);
+        
+    
+            var marker_c3f3d1be52c74a09547b33d0d7e3127e = L.marker(
+                [-26.46, 23.53],
+                {}
+            ).addTo(map_511a427464d5e04883847f0147569c4f);
+        
+    
+            var icon_8f24baa3b7e9008b242263874b4b81e1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-star", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_c3f3d1be52c74a09547b33d0d7e3127e.setIcon(icon_8f24baa3b7e9008b242263874b4b81e1);
+        
+    
+        var popup_1b693ca9eb53266f38b9b2ef3bca651a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2e0392e7938222aa8dca995d0fabb2b9 = $(`<div id="html_2e0392e7938222aa8dca995d0fabb2b9" style="width: 100.0%; height: 100.0%;">Nombre = Morokweng   Diámetro = 70.0 km</div>`)[0];
+            popup_1b693ca9eb53266f38b9b2ef3bca651a.setContent(html_2e0392e7938222aa8dca995d0fabb2b9);
+        
+
+        marker_c3f3d1be52c74a09547b33d0d7e3127e.bindPopup(popup_1b693ca9eb53266f38b9b2ef3bca651a)
+        ;
+
+        
+    
+    
+            var circle_a02b6119418c71e21345424a813cb261 = L.circle(
+                [-26.46, 23.53],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 70000.0, "stroke": true, "weight": 3}
+            ).addTo(map_511a427464d5e04883847f0147569c4f);
+        
+    
+            var marker_31f38b59fb7d7f8fb262135f4a03e2b0 = L.marker(
+                [71.65, 111.18],
+                {}
+            ).addTo(map_511a427464d5e04883847f0147569c4f);
+        
+    
+            var icon_5410b873da229f63ba4f488d8067bde9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-star", "iconColor": "white", "markerColor": "beige", "prefix": "fa"}
+            );
+            marker_31f38b59fb7d7f8fb262135f4a03e2b0.setIcon(icon_5410b873da229f63ba4f488d8067bde9);
+        
+    
+        var popup_8e1ee0d29d6d5c874c1ec6f270ed4848 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0b6a4fbd5b885464153eb6574ae38da4 = $(`<div id="html_0b6a4fbd5b885464153eb6574ae38da4" style="width: 100.0%; height: 100.0%;">Nombre = Popigai   Diámetro = 90.0 km</div>`)[0];
+            popup_8e1ee0d29d6d5c874c1ec6f270ed4848.setContent(html_0b6a4fbd5b885464153eb6574ae38da4);
+        
+
+        marker_31f38b59fb7d7f8fb262135f4a03e2b0.bindPopup(popup_8e1ee0d29d6d5c874c1ec6f270ed4848)
+        ;
+
+        
+    
+    
+            var circle_c5699779d6fe9e8270e956d79b9260b0 = L.circle(
+                [71.65, 111.18],
+                {"bubblingMouseEvents": true, "color": "beige", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "beige", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 90000.0, "stroke": true, "weight": 3}
+            ).addTo(map_511a427464d5e04883847f0147569c4f);
+        
+    
+            var marker_6c7f23dfac7f86e248278350e483c151 = L.marker(
+                [56.97, 43.71],
+                {}
+            ).addTo(map_511a427464d5e04883847f0147569c4f);
+        
+    
+            var icon_522ad8044309280a6a5b9d65d5021cdf = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-star", "iconColor": "white", "markerColor": "black", "prefix": "fa"}
+            );
+            marker_6c7f23dfac7f86e248278350e483c151.setIcon(icon_522ad8044309280a6a5b9d65d5021cdf);
+        
+    
+        var popup_ca97c5808784a65d759008a301c60007 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_91d94ecc4e037e5f011c058da58bdcb7 = $(`<div id="html_91d94ecc4e037e5f011c058da58bdcb7" style="width: 100.0%; height: 100.0%;">Nombre = Puchezh-Katunki   Diámetro = 40.0 km</div>`)[0];
+            popup_ca97c5808784a65d759008a301c60007.setContent(html_91d94ecc4e037e5f011c058da58bdcb7);
+        
+
+        marker_6c7f23dfac7f86e248278350e483c151.bindPopup(popup_ca97c5808784a65d759008a301c60007)
+        ;
+
+        
+    
+    
+            var circle_f20bf89bdee4040704205f209f54ee50 = L.circle(
+                [56.97, 43.71],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 40000.0, "stroke": true, "weight": 3}
+            ).addTo(map_511a427464d5e04883847f0147569c4f);
+        
+    
+            var marker_6e267b8175a17876a553351380f666eb = L.marker(
+                [51.78, -98.53],
+                {}
+            ).addTo(map_511a427464d5e04883847f0147569c4f);
+        
+    
+            var icon_64d0cdbb26f5fcde384c2f85b3d2bc5d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-star", "iconColor": "white", "markerColor": "black", "prefix": "fa"}
+            );
+            marker_6e267b8175a17876a553351380f666eb.setIcon(icon_64d0cdbb26f5fcde384c2f85b3d2bc5d);
+        
+    
+        var popup_8fa6c4d1d44b43d8e7cac3e9c0c1fce8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ae98e7835c51402361b042ff9cacc892 = $(`<div id="html_ae98e7835c51402361b042ff9cacc892" style="width: 100.0%; height: 100.0%;">Nombre = Saint Martin   Diámetro = 40.0 km</div>`)[0];
+            popup_8fa6c4d1d44b43d8e7cac3e9c0c1fce8.setContent(html_ae98e7835c51402361b042ff9cacc892);
+        
+
+        marker_6e267b8175a17876a553351380f666eb.bindPopup(popup_8fa6c4d1d44b43d8e7cac3e9c0c1fce8)
+        ;
+
+        
+    
+    
+            var circle_54c7067db9b9d0458bb0557b4bc94a8d = L.circle(
+                [51.78, -98.53],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 40000.0, "stroke": true, "weight": 3}
+            ).addTo(map_511a427464d5e04883847f0147569c4f);
+        
+    
+            var marker_af50d8db2badd44cd85c4101ae3578e0 = L.marker(
+                [61.04, 14.92],
+                {}
+            ).addTo(map_511a427464d5e04883847f0147569c4f);
+        
+    
+            var icon_48b097b665f6cec95543ae8c52e40fbc = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-star", "iconColor": "white", "markerColor": "cadetblue", "prefix": "fa"}
+            );
+            marker_af50d8db2badd44cd85c4101ae3578e0.setIcon(icon_48b097b665f6cec95543ae8c52e40fbc);
+        
+    
+        var popup_ef17491c7f616cbb719210c8bdf6c3f1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fe6fc8464b2f11b29f605a25c5fdf77a = $(`<div id="html_fe6fc8464b2f11b29f605a25c5fdf77a" style="width: 100.0%; height: 100.0%;">Nombre = Siljan   Diámetro = 52.0 km</div>`)[0];
+            popup_ef17491c7f616cbb719210c8bdf6c3f1.setContent(html_fe6fc8464b2f11b29f605a25c5fdf77a);
+        
+
+        marker_af50d8db2badd44cd85c4101ae3578e0.bindPopup(popup_ef17491c7f616cbb719210c8bdf6c3f1)
+        ;
+
+        
+    
+    
+            var circle_a04a40ba1243ec557ba336ea9f3cde40 = L.circle(
+                [61.04, 14.92],
+                {"bubblingMouseEvents": true, "color": "cadetblue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "cadetblue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 52000.0, "stroke": true, "weight": 3}
+            ).addTo(map_511a427464d5e04883847f0147569c4f);
+        
+    
+            var marker_e9316a30a2f9ab181e61f4155438db0b = L.marker(
+                [46.6, -82.18],
+                {}
+            ).addTo(map_511a427464d5e04883847f0147569c4f);
+        
+    
+            var icon_afffed32bc5d5988e2f9aaf76f621e86 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-star", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_e9316a30a2f9ab181e61f4155438db0b.setIcon(icon_afffed32bc5d5988e2f9aaf76f621e86);
+        
+    
+        var popup_0cbdbb5d6e05c025c02a7e82b0f321b9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e1f1e6e9e86e3fab129359ec5df4ab9c = $(`<div id="html_e1f1e6e9e86e3fab129359ec5df4ab9c" style="width: 100.0%; height: 100.0%;">Nombre = Sudbury   Diámetro = 130.0 km</div>`)[0];
+            popup_0cbdbb5d6e05c025c02a7e82b0f321b9.setContent(html_e1f1e6e9e86e3fab129359ec5df4ab9c);
+        
+
+        marker_e9316a30a2f9ab181e61f4155438db0b.bindPopup(popup_0cbdbb5d6e05c025c02a7e82b0f321b9)
+        ;
+
+        
+    
+    
+            var circle_e88bfc2e994071abc23a2f4b593ea5a1 = L.circle(
+                [46.6, -82.18],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 130000.0, "stroke": true, "weight": 3}
+            ).addTo(map_511a427464d5e04883847f0147569c4f);
+        
+    
+            var marker_c01ae36def6efdcda36be1441b954e8e = L.marker(
+                [-27.11, 142.83],
+                {}
+            ).addTo(map_511a427464d5e04883847f0147569c4f);
+        
+    
+            var icon_f5597c121a8c0800ab1c1bbd249b5f21 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-star", "iconColor": "white", "markerColor": "pink", "prefix": "fa"}
+            );
+            marker_c01ae36def6efdcda36be1441b954e8e.setIcon(icon_f5597c121a8c0800ab1c1bbd249b5f21);
+        
+    
+        var popup_3e2d1c62c46f8d8db673f5941a57c714 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bb7ddfd8376822fba56a572e549b2f66 = $(`<div id="html_bb7ddfd8376822fba56a572e549b2f66" style="width: 100.0%; height: 100.0%;">Nombre = Tookoonooka   Diámetro = 55.0 km</div>`)[0];
+            popup_3e2d1c62c46f8d8db673f5941a57c714.setContent(html_bb7ddfd8376822fba56a572e549b2f66);
+        
+
+        marker_c01ae36def6efdcda36be1441b954e8e.bindPopup(popup_3e2d1c62c46f8d8db673f5941a57c714)
+        ;
+
+        
+    
+    
+            var circle_39a19f1372a4e90babf4036abc1d88f5 = L.circle(
+                [-27.11, 142.83],
+                {"bubblingMouseEvents": true, "color": "pink", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "pink", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 55000.0, "stroke": true, "weight": 3}
+            ).addTo(map_511a427464d5e04883847f0147569c4f);
+        
+    
+            var marker_3bb09e85294cf29b4eb865319b0aaf38 = L.marker(
+                [-27.0, 27.5],
+                {}
+            ).addTo(map_511a427464d5e04883847f0147569c4f);
+        
+    
+            var icon_46453d867622bae2f1ab8f5f18a00ce3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-star", "iconColor": "white", "markerColor": "darkred", "prefix": "fa"}
+            );
+            marker_3bb09e85294cf29b4eb865319b0aaf38.setIcon(icon_46453d867622bae2f1ab8f5f18a00ce3);
+        
+    
+        var popup_d1fcff05232fcdc01aec4d3fdc97f72b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f3d9f3eaf4b4ea9dc9c993784b08371b = $(`<div id="html_f3d9f3eaf4b4ea9dc9c993784b08371b" style="width: 100.0%; height: 100.0%;">Nombre = Vredefort   Diámetro = 160.0 km</div>`)[0];
+            popup_d1fcff05232fcdc01aec4d3fdc97f72b.setContent(html_f3d9f3eaf4b4ea9dc9c993784b08371b);
+        
+
+        marker_3bb09e85294cf29b4eb865319b0aaf38.bindPopup(popup_d1fcff05232fcdc01aec4d3fdc97f72b)
+        ;
+
+        
+    
+    
+            var circle_07096b15752e89611d78a9d5b75f5a3f = L.circle(
+                [-27.0, 27.5],
+                {"bubblingMouseEvents": true, "color": "darkred", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "darkred", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 160000.0, "stroke": true, "weight": 3}
+            ).addTo(map_511a427464d5e04883847f0147569c4f);
+        
+    
+            var marker_38846b7feddd9f4c87e08309d94cd3fb = L.marker(
+                [-26.05, 114.66],
+                {}
+            ).addTo(map_511a427464d5e04883847f0147569c4f);
+        
+    
+            var icon_651f57ce347f98a5325d0690a8975b18 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-star", "iconColor": "white", "markerColor": "black", "prefix": "fa"}
+            );
+            marker_38846b7feddd9f4c87e08309d94cd3fb.setIcon(icon_651f57ce347f98a5325d0690a8975b18);
+        
+    
+        var popup_2f002ec02c2a55c8c3ce2732108f2ca6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_413509b179239112414af84cefb0d3a0 = $(`<div id="html_413509b179239112414af84cefb0d3a0" style="width: 100.0%; height: 100.0%;">Nombre = Woodleigh   Diámetro = 40.0 km</div>`)[0];
+            popup_2f002ec02c2a55c8c3ce2732108f2ca6.setContent(html_413509b179239112414af84cefb0d3a0);
+        
+
+        marker_38846b7feddd9f4c87e08309d94cd3fb.bindPopup(popup_2f002ec02c2a55c8c3ce2732108f2ca6)
+        ;
+
+        
+    
+    
+            var circle_7c4969faffab647f996c8dbb0bd83a00 = L.circle(
+                [-26.05, 114.66],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 40000.0, "stroke": true, "weight": 3}
+            ).addTo(map_511a427464d5e04883847f0147569c4f);
+        
+</script>
